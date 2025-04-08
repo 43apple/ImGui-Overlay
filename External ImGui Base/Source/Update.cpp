@@ -9,7 +9,9 @@ std::string GetLatestVersion();
 
 void UpdateCheck()
 {
+    // local build version (on client pc)
     std::string localVersion = "1.0";
+    // latest build version (on server)
     std::string latestVersion = GetLatestVersion();
 
     if (localVersion != latestVersion)
@@ -17,7 +19,7 @@ void UpdateCheck()
         int response = MessageBox(NULL, "There is an update available! Click OK to go to download.", "External ImGui by 43apple", MB_OKCANCEL | MB_ICONINFORMATION);
         if (response == IDOK)
         {
-            system("start https://github.com/loc8258");
+            system("start https://github.com/43apple");
             exit(EXIT_SUCCESS);
         }
     }
