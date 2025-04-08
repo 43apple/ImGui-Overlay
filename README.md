@@ -6,7 +6,7 @@ A basic but easy to modify base for any external ImGui projects. Does not inject
 2. Once downloaded, open the .sln file using [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) (2019 and below should work, but I use 2022)
 3. Make sure build mode is set to **Release and x64**!
 4. Press Ctrl + Shift + B to build the project
-5. Navigate to `"C:\your\path\here\External ImGui Base\x64\Release\", where you will find the executable
+5. Navigate to `"C:\your\path\here\External ImGui Base\x64\Release\"`, where you will find the executable
 
 ## License
 The MIT License (MIT)
