@@ -9,7 +9,7 @@ A basic but easy to modify base for any external ImGui projects. Does not inject
 5. Navigate to `"C:\your\path\here\External ImGui Base\x64\Release\"`, where you will find the executable
 
 ## Detections
-Though this application doesn't inject into the target or hook any functions in the target, it does create a handle to the target process, as stated before. Be careful, because any decent anticheat will strip said handle, or ban you for it. If this is a security concern for you, either implement a kernel driver (fairly simple for any decent programmer) or modify the program so it no longer creates a handle. Good luck.
+Though this application doesn't inject into the target or hook any functions in the target, it does create a handle to the target process, as stated before. Be careful, because any decent anticheat will strip said handle, or ban you for it. If this is a security concern for you, either implement a kernel driver (fairly simple for any decent programmer) or modify the program so it no longer creates a handle.
 
 ## FAQ
 #### I'm getting errors when building the project!
