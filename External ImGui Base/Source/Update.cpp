@@ -17,7 +17,7 @@ void UpdateCheck()
         int response = MessageBox(NULL, "There is an update available! Click OK to go to download.", "External ImGui by 43apple", MB_OKCANCEL | MB_ICONINFORMATION);
         if (response == IDOK)
         {
-            system("start https://www.unknowncheats.me/forum/among-us/685399-external-overlay-undetectable.html");
+            system("start https://github.com/loc8258");
             exit(EXIT_SUCCESS);
         }
     }
