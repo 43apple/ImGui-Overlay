@@ -1,5 +1,5 @@
 # External ImGui Overlay
-A basic but easy to modify base for any external ImGui projects. Does not inject or hook functions, but does by default create handle to target program. Feel free to submit issues or pull requests. I've tried my best to keep the code relatively clean and organized, which I feel like I've done quite a decent job at. Happy coding :)
+A basic but easy to modify base for any external ImGui projects. Does not inject or hook functions, but does by default create handle to target process. Feel free to submit issues or pull requests. I've tried my best to keep the code relatively clean and organized, which I feel like I've done quite a decent job at. Happy coding :)
 
 ## How do I use this code?
 1. Either clone the repository using Git, or download using the green button on the top right
@@ -7,6 +7,17 @@ A basic but easy to modify base for any external ImGui projects. Does not inject
 3. Make sure build mode is set to **Release and x64**!
 4. Press Ctrl + Shift + B to build the project
 5. Navigate to `"C:\your\path\here\External ImGui Base\x64\Release\"`, where you will find the executable
+
+## Detections
+Though this application doesn't inject into the target or hook any functions in the target, it does create a handle to the target process, as stated before. Be careful, because any decent anticheat will strip said handle, or ban you for it. If this is a security concern for you, either implement a kernel driver (fairly simple for any decent programmer) or modify the program so it no longer creates a handle. Good luck.
+
+## FAQ
+#### I'm getting errors when building the project!
+Make sure you're compiling in Release and x64. If the errors persist, create an Issue on the repository.
+#### I can't see the menu over my target process!
+Make sure the target process is not running in Fullscreen, but rather Windowed or Windowed Borderless (or anything of the sort)
+#### I have a question which is not listed here!
+Create an issue on the repository.
 
 ## License
 The MIT License (MIT)
