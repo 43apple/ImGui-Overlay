@@ -1,5 +1,5 @@
 # External ImGui Overlay
-A basic but easy to modify base for any external ImGui projects. Does not inject or hook functions, but does by default create handle to target process. Feel free to submit issues or pull requests. I've tried my best to keep the code relatively clean and organized, which I feel like I've done quite a decent job at. Happy coding :)
+A basic but easy to modify base for any external ImGui projects. Does not inject or hook functions, but does by default create handle to target process. Feel free to submit issues or pull requests. Be aware: this uses a very old ImGui version (1.67 WIP) from mid-2019!! You can update it manually. I've tried my best to keep the code relatively clean and organized, which I feel like I've done quite a decent job at. Happy coding :)
 
 ## How do I use this code?
 1. Either clone the repository using Git, or download using the green button on the top right
